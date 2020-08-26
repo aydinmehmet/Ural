@@ -1,0 +1,29 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mehmet AYDIN</Authors>
+    <Description>This package contains the base types of the Ural Boilerplate project.</Description>
+    <Product>Ural</Product>
+    <NeutralLanguage>en</NeutralLanguage>
+    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, Onion Architecture</PackageTags>
+    <Copyright>© Copyright By Mehmet AYDIN</Copyright>
+    <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <Version>1.0.1</Version>
+    <PackageReleaseNotes>The base type default value for the property has been removed.</PackageReleaseNotes>   
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MongoDB.Bson" Version="2.11.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Assets\Icons\Ural-Boilerplate-Icon-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
