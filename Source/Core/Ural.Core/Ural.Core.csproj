@@ -10,7 +10,7 @@
     <Copyright>© Copyright By Mehmet AYDIN</Copyright>
     <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
-    <Version>1.0.1</Version>
+    <Version>1.0.1.1</Version>
     <PackageReleaseNotes>url information has been added to the repository package.</PackageReleaseNotes>   
     <PackageLicenseExpression>MIT</PackageLicenseExpression>   
     <RepositoryUrl>https://github.com/aydinmehmet/Ural</RepositoryUrl>   
