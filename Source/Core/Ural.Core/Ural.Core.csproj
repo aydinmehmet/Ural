@@ -6,13 +6,16 @@
     <Description>This package contains the base types of the Ural Boilerplate project.</Description>
     <Product>Ural</Product>
     <NeutralLanguage>en</NeutralLanguage>
-    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, Onion Architecture</PackageTags>
+    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, Onion Architecture, Concurrency, xmin,</PackageTags>
     <Copyright>© Copyright By Mehmet AYDIN</Copyright>
     <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
     <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
     <Version>1.0.1</Version>
-    <PackageReleaseNotes>The base type default value for the property has been removed.</PackageReleaseNotes>   
-    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageReleaseNotes>url information has been added to the repository package.</PackageReleaseNotes>   
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>   
+    <RepositoryUrl>https://github.com/aydinmehmet/Ural</RepositoryUrl>   
+    <AssemblyVersion>1.0.1.1</AssemblyVersion>   
+    <FileVersion>1.0.1.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>
