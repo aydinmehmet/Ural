@@ -1,0 +1,11 @@
+﻿
+
+Create a migration :
+	Add-Migration -Name <MigrationName> -OutputDir Migrations\<ContextShortName> -Context <ContextFullName>
+
+Initialize database server :
+	Update-Database -Context <ContextFullName>
+
+Example :
+	Add-Migration -Name TheMigrationNameYouWant -OutputDir Migrations\SampleBook -Context SampleBookDbContext (Enter)
+	Update-Database -Context SampleBookDbContext (Enter)

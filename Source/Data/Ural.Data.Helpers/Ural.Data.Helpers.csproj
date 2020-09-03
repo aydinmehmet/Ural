@@ -2,9 +2,39 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mehmet AYDIN</Authors>
+    <Company>Mehmet AYDIN</Company>
+    <Product>Ural</Product>
+    <Description>This package contains entity framework core base entity type configuration for MsSql, MySql, PostgreSql.</Description>
+    <Copyright>© Copyright By Mehmet AYDIN</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
+    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, Onion Architecture, Concurrency, xmin,</PackageTags>
+    <NeutralLanguage>en</NeutralLanguage>
+    <RepositoryUrl>https://github.com/aydinmehmet/Ural</RepositoryUrl>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
   </PropertyGroup>
 
   <ItemGroup>
+    <None Include="..\..\..\Assets\Icons\Ural-Boilerplate-Icon-128x128.png" Link="Ural-Boilerplate-Icon-128x128.png">
+      <PackagePath></PackagePath>
+      <Pack>True</Pack>
+    </None>
+    <None Include="..\..\..\Assets\Icons\Ural-Boilerplate-Icon-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.7" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Relational" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.EnvironmentVariables" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.7" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.7" />
+    <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
     <PackageReference Include="Ural.Core" Version="1.0.1" />
   </ItemGroup>
 
