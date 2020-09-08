@@ -25,7 +25,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ural.Core", "Source\Core\Ur
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ural.Data.Helpers", "Source\Data\Ural.Data.Helpers\Ural.Data.Helpers.csproj", "{6C84AA14-7DE9-455B-8A12-3FB3DDDBD111}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ural.Infrastructure.GenericMsSqlRepository", "Source\Infrastructure\Ural.Infrastructure.GenericMsSqlRepository\Ural.Infrastructure.GenericMsSqlRepository.csproj", "{5A6971CF-0C09-4E8B-8F69-E552CC3600A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ural.Infrastructure.GenericMsSqlRepository", "Source\Infrastructure\Ural.Infrastructure.GenericMsSqlRepository\Ural.Infrastructure.GenericMsSqlRepository.csproj", "{5A6971CF-0C09-4E8B-8F69-E552CC3600A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
