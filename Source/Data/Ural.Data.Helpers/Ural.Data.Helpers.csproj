@@ -9,10 +9,13 @@
     <Copyright>© Copyright By Mehmet AYDIN</Copyright>
     <PackageLicenseExpression>MIT</PackageLicenseExpression>
     <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
-    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, Onion Architecture, Concurrency, xmin,</PackageTags>
+    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, UnitofWork, Onion Architecture, Clean Architecture, Concurrency, xmin</PackageTags>
     <NeutralLanguage>en</NeutralLanguage>
     <RepositoryUrl>https://github.com/aydinmehmet/Ural</RepositoryUrl>
-    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <PackageReleaseNotes>EntityFramework and MongoDb nuget packages have been updated.</PackageReleaseNotes>
+    <AssemblyVersion>1.0.0.1</AssemblyVersion>
+    <FileVersion>1.0.0.1</FileVersion>
+    <Version>1.0.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
@@ -35,7 +38,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.FileExtensions" Version="3.1.8" />
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="3.1.8" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="3.1.4" />
-    <PackageReference Include="Ural.Core" Version="1.0.1.1" />
+    <PackageReference Include="Ural.Core" Version="1.0.1.2" />
   </ItemGroup>
 
 </Project>
