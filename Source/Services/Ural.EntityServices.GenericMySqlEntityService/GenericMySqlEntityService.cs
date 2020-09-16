@@ -7,14 +7,14 @@ using System.Threading.Tasks;
 using Ural.Core.BaseTypes;
 using Ural.Infrastructure.GenericMySqlRepository;
 
-namespace Ural.EntityServices.GenericMsSqlEntityService
+namespace Ural.EntityServices.GenericMySqlEntityService
 {
     /// <summary>
     /// The GenericMySqlEntityService Class 
     /// </summary>
     /// <typeparam name="TEntity">The type of the entity.</typeparam>
     /// <typeparam name="TKey">The type of the key.</typeparam>
-    /// <seealso cref="Ural.EntityServices.GenericMsSqlEntityService.IGenericMySqlEntityService{TEntity, TKey}" />
+    /// <seealso cref="Ural.EntityServices.GenericMySqlEntityService.IGenericMySqlEntityService{TEntity, TKey}" />
     public class GenericMySqlEntityService<TEntity, TKey> : IGenericMySqlEntityService<TEntity, TKey> where TEntity : BaseType<TKey> where TKey : IEquatable<TKey>
     {
         /// <summary>

@@ -5,7 +5,7 @@ using System.Linq.Expressions;
 using System.Threading.Tasks;
 using Ural.Core.BaseTypes;
 
-namespace Ural.EntityServices.GenericMsSqlEntityService
+namespace Ural.EntityServices.GenericMySqlEntityService
 {
     /// <summary>
     /// The Interface Of GenericMySqlEntityService Class
