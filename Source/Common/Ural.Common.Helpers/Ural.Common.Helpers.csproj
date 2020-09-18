@@ -1,0 +1,28 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mehmet AYDIN</Authors>
+    <Product>Ural</Product>
+    <Description>Common utility class for the Ural Boilerplate project.</Description>
+    <Copyright>© Copyright By Mehmet AYDIN</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/aydinmehmet/Ural</RepositoryUrl>
+    <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
+    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, UnitofWork, Onion Architecture, Clean Architecture, Concurrency, xmin, Common, Utility, Helpers</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Identity" Version="2.2.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Assets\Icons\Ural-Boilerplate-Icon-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
