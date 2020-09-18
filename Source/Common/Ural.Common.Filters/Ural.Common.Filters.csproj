@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mehmet AYDIN</Authors>
+    <Product>Ural</Product>
+    <Description>Common custom filter class for the Ural Boilerplate project.</Description>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <Copyright>© Copyright By Mehmet AYDIN</Copyright>
+    <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
+    <RepositoryUrl>https://github.com/aydinmehmet/Ural</RepositoryUrl>
+    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, UnitofWork, Onion Architecture, Clean Architecture, Concurrency, xmin, Common, Utility, Helpers, Filters</PackageTags>
+    <PackageReleaseNotes>First release.</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.OpenApi" Version="1.2.3" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Assets\Icons\Ural-Boilerplate-Icon-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
