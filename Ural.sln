@@ -37,7 +37,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ural.EntityServices.Generic
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ural.EntityServices.GenericPostgreSqlEntityService", "Source\Services\Ural.EntityServices.GenericPostgreSqlEntityService\Ural.EntityServices.GenericPostgreSqlEntityService.csproj", "{6D97C66C-AB12-46A1-84BD-C83B717619CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ural.Common.Helpers", "Source\Common\Ural.Common.Helpers\Ural.Common.Helpers.csproj", "{09B3CD83-0AD4-483E-9940-20258F1470B3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Ural.Common.Helpers", "Source\Common\Ural.Common.Helpers\Ural.Common.Helpers.csproj", "{09B3CD83-0AD4-483E-9940-20258F1470B3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Ural.Common.Models", "Source\Common\Ural.Common.Models\Ural.Common.Models.csproj", "{1BF99C78-01A9-497C-AABB-421B3CF8F31A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -81,6 +83,10 @@ Global
 		{09B3CD83-0AD4-483E-9940-20258F1470B3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{09B3CD83-0AD4-483E-9940-20258F1470B3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{09B3CD83-0AD4-483E-9940-20258F1470B3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1BF99C78-01A9-497C-AABB-421B3CF8F31A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1BF99C78-01A9-497C-AABB-421B3CF8F31A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1BF99C78-01A9-497C-AABB-421B3CF8F31A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1BF99C78-01A9-497C-AABB-421B3CF8F31A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{AC9A7F73-D938-4421-9716-1595D1FCC288} = {23EA4C15-A186-4D50-B292-E841FF49929F}
 		{6D97C66C-AB12-46A1-84BD-C83B717619CF} = {23EA4C15-A186-4D50-B292-E841FF49929F}
 		{09B3CD83-0AD4-483E-9940-20258F1470B3} = {B0D03FCE-3371-4AAF-9EA6-8A3E9607174A}
+		{1BF99C78-01A9-497C-AABB-421B3CF8F31A} = {B0D03FCE-3371-4AAF-9EA6-8A3E9607174A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AB11838B-107B-41A5-BB6C-0D1F50145D32}
