@@ -38,22 +38,22 @@ namespace Ural.EntityServices.GenericMySqlEntityService
         /// <summary>
         /// Initializes a new instance of the <see cref="GenericMySqlEntityService{TEntity, TKey}"/> class.
         /// </summary>
-        /// <param name="unitOfWorkMsSql">The unit of work ms SQL.</param>
+        /// <param name="unitOfWorkMySql">The unit of work my SQL.</param>
         /// <param name="genericMySqlRepository">The generic my SQL repository.</param>
         /// <param name="httpContextAccessor">The HTTP context accessor.</param>
         /// <exception cref="System.ArgumentNullException">
-        /// unitOfWorkMsSql
+        /// unitOfWorkMySql
         /// or
         /// genericMySqlRepository
         /// or
         /// httpContextAccessor
         /// </exception>
         public GenericMySqlEntityService(
-            IUnitOfWorkMySql unitOfWorkMsSql,
+            IUnitOfWorkMySql unitOfWorkMySql,
             IGenericMySqlRepository<TEntity, TKey> genericMySqlRepository,
             IHttpContextAccessor httpContextAccessor)
         {
-            _unitOfWorkMySql        = unitOfWorkMsSql ?? throw new ArgumentNullException(nameof(unitOfWorkMsSql));
+            _unitOfWorkMySql        = unitOfWorkMySql ?? throw new ArgumentNullException(nameof(unitOfWorkMySql));
             _genericMySqlRepository = genericMySqlRepository ?? throw new ArgumentNullException(nameof(genericMySqlRepository));
             _httpContextAccessor    = httpContextAccessor ?? throw new ArgumentNullException(nameof(httpContextAccessor));
         }
