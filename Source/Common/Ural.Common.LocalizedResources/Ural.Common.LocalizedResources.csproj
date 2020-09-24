@@ -2,6 +2,16 @@
 
   <PropertyGroup>
     <TargetFramework>netcoreapp3.1</TargetFramework>
+    <Authors>Mehmet AYDIN</Authors>
+    <Product>Ural</Product>
+    <Description>Localized resource for the Ural Boilerplate project.</Description>
+    <Copyright>© Copyright By Mehmet AYDIN</Copyright>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <RepositoryUrl>https://github.com/aydinmehmet/Ural</RepositoryUrl>
+    <PackageIcon>Ural-Boilerplate-Icon-128x128.png</PackageIcon>
+    <PackageTags>.Net Core, BaseTypes, Ural, Boilerplate, Framework, Mehmet, Aydin, Mongo, MSSQL, MySQL, PostgreSQL, Generic Repository, Service, UnitofWork, Onion Architecture, Clean Architecture, Concurrency, xmin, Common, Utility, Helpers, Identity, Authentication, User, Register, Login, Signin, Logout, Signout, Localize, Globalize, Localization</PackageTags>
+    <PackageReleaseNotes>Please visit https://github.com/aydinmehmet/Ural</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
   </PropertyGroup>
 
   <ItemGroup>
@@ -11,6 +21,13 @@
     <EmbeddedResource Update="LocalizedIdentityError\ResourceIdentityError.resx">
       <Generator></Generator>
     </EmbeddedResource>
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Assets\Icons\Ural-Boilerplate-Icon-128x128.png">
+      <Pack>True</Pack>
+      <PackagePath></PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
